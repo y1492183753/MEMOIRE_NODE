@@ -1,0 +1,19 @@
+{
+  "name": "my-node-redis-memoirs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node out/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/request": "^2.48.12",
+    "express": "^4.21.2",
+    "redis": "^4.7.0",
+    "request": "^2.88.2"
+  }
+}
